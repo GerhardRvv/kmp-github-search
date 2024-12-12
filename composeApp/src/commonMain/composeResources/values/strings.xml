@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+    <string name="search_hint">Start typing to search...</string>
+    <string name="close_hint">Clear search</string>
+    <string name="no_search_results">No search results</string>
+    <string name="error_offline_results">Offline results</string>
+    <string name="empty_search_state_title">No search results yet</string>
+    <string name="empty_search_state_subtitle">Start typing to search for a user or organization.</string>
+    <string name="repositories_count">Repositories: %1$d</string>
+    <string name="error_message_title">Ups... something went wrong</string>
+    <string name="error_message_body">Please check your internet connection, and try again</string>
+</resources>
