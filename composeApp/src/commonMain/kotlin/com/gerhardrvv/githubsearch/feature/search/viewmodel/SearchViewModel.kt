@@ -67,7 +67,7 @@ class SearchViewModel(
                         }
                     }
 
-                    query.length >= 2 -> {
+                    query.isNotEmpty() -> {
                         searchJob?.cancel()
                         searchJob = searchAccounts(query)
                     }
