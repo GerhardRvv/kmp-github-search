@@ -1,3 +1,4 @@
 TEAM_ID=
 BUNDLE_ID=com.gerhardrvv.githubsearch.GitHubSearch
 APP_NAME=GitHubSearch
+GITHUB_API_TOKEN=<Enter you github atuh token>

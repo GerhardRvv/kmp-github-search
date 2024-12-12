@@ -31,10 +31,11 @@ import githubsearch.composeapp.generated.resources.img_disconnected
 import githubsearch.composeapp.generated.resources.img_folder
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
+import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
 fun SearchScreen(
-    viewModel: SearchViewModel = SearchViewModel()
+    viewModel: SearchViewModel = koinViewModel()
 ) {
     val state = viewModel.uiState.collectAsStateWithLifecycle()
 
